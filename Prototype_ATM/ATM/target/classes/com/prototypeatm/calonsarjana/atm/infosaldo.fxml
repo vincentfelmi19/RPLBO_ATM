@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="342.0" prefWidth="600.0" style="-fx-background-color: #076C6C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prototypeatm.calonsarjana.atm.Infosaldo">
+   <children>
+      <Label layoutX="155.0" layoutY="34.0" text="PENGECEKAN BERHASIL !" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="83.0" text="APAKAH ANDA MASIH INGIN LANJUT ?" textAlignment="CENTER" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="47.0" layoutY="247.0" mnemonicParsing="false" onAction="#Tidak" prefHeight="26.0" prefWidth="64.0" style="-fx-background-color: #000000;" text="TIDAK" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="495.0" layoutY="247.0" mnemonicParsing="false" onAction="#Ya" prefHeight="26.0" prefWidth="64.0" style="-fx-background-color: #000000;" text="YA" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="155.0" layoutY="153.0" text="RP" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="218.0" layoutY="145.0" prefHeight="35.0" prefWidth="180.0" text="2.000.000,-">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

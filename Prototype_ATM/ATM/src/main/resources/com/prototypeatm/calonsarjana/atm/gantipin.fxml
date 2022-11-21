@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="342.0" prefWidth="600.0" style="-fx-background-color: #076C6C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prototypeatm.calonsarjana.atm.Gantipin">
+   <children>
+      <Label layoutX="248.0" layoutY="44.0" prefHeight="39.0" prefWidth="299.0" text="SILAHKAN MASUKKAN" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="91.0" text="PIN BARU ANDA" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Label>
+      <PasswordField fx:id="pinbaru" layoutX="317.0" layoutY="166.0" prefHeight="35.0" prefWidth="134.0" style="-fx-border-color: #D0D4D9; -fx-background-color: #076C6C;" />
+      <Button layoutX="474.0" layoutY="170.0" mnemonicParsing="false" onAction="#hapusPin" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #000000;" text="HAPUS" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="474.0" layoutY="260.0" mnemonicParsing="false" onAction="#pinBaru" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #000000;" text="NEXT" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="51.0" layoutY="260.0" mnemonicParsing="false" onAction="#batal" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #000000;" text="CANCEL" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
