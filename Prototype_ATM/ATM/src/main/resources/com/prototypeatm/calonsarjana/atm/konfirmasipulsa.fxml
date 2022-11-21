@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #076C6C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prototypeatm.calonsarjana.atm.Konfirmasipulsa">
+    <children>
+        <Label layoutX="138.0" layoutY="25.0" text="KONFIRMASI PEMBAYARAN" textFill="#f2df2e">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="51.0" layoutY="81.0" text="NAMA VOUCHER :" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="51.0" layoutY="123.0" text="NO TELEPON :" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="51.0" layoutY="183.0" text="JUMLAH :" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="82.0" layoutY="320.0" text="TEKAN CANCEL UNTUK PEMBATALAN" textFill="#f2df2e">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nominal" layoutX="202.0" layoutY="173.0" prefHeight="48.0" prefWidth="271.0" />
+        <Button layoutX="51.0" layoutY="265.0" mnemonicParsing="false" onAction="#Batal" prefHeight="26.0" prefWidth="64.0" style="-fx-background-color: #000000;" text="CANCEL" textFill="#f2df2e">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="494.0" layoutY="265.0" mnemonicParsing="false" onAction="#Lanjut" prefHeight="26.0" prefWidth="64.0" style="-fx-background-color: #000000;" text="NEXT" textFill="#f2df2e">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+      <Label layoutX="157.0" layoutY="179.0" text="RP" textFill="#f2df2e">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
